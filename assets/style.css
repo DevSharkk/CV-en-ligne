@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Contenus';
+    src: url('./font/Raleway-Thin.woff2') format('woff2'),
+         url('./font/Raleway-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* MISE EN PAGE */
+body {
+    width: 1160px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+/* HEADER */
+.header {
+    background-color: #17abb3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+    height: 200px;
+    padding-left: 120px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center; 
+    max-width: 1160px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* HEADER IMG */
+
+.header-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    position: relative;
+    margin: 25px 0;
+    cursor: zoom-in ;
+}
+
+.sidebar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin: 20px 0;
+}
+
+/* HEADER TEXTE */
+.header-text h1 {
+    margin: 0;
+    font-size: 32px;
+    font-family: "lato", sans-serif;
+}
+
+.info_perso {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.info_perso img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    filter: invert(1);
+}
+
+.header-text h2 {
+    margin: 5px 0;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: "lato", sans-serif;
+}
+
+.header-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+.header-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-text {
+    margin-right: 80px;
+}
