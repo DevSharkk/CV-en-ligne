@@ -7,6 +7,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 /* MISE EN PAGE */
 body {
     width: 1160px;
@@ -20,32 +21,21 @@ body {
     color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 0 100px;
     height: 200px;
-    padding-left: 120px;
 }
 
 .header-content {
     display: flex;
-    align-items: center; 
-    max-width: 1160px;
-    width: 100%;
+    align-items: center;
     justify-content: space-between;
+    max-width: 100%;
+    width: 1160px;
 }
 
-/* HEADER IMG */
-
-.header-photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid white;
-    position: relative;
-    margin: 25px 0;
-    cursor: zoom-in ;
-}
-
+/* IMAGES RONDES (HEADER ET SIDEBAR) */
+.header-photo,
 .sidebar img {
     width: 120px;
     height: 120px;
@@ -55,33 +45,27 @@ body {
     margin: 20px 0;
 }
 
-/* HEADER TEXTE */
+.header-photo {
+    cursor: zoom-in;
+    position: relative;
+}
+
+/* TEXTE DU HEADER */
+.header-text {
+    margin-right: 80px;
+}
+
 .header-text h1 {
     margin: 0;
     font-size: 32px;
-    font-family: "lato", sans-serif;
-}
-
-.info_perso {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 10px;
-    flex-wrap: wrap;
-    padding-top: 10px;
-}
-
-.info_perso img {
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
-    filter: invert(1);
+    font-family: "Lato", sans-serif;
 }
 
 .header-text h2 {
     margin: 5px 0;
     font-size: 22px;
     font-weight: normal;
-    font-family: "lato", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .header-text p {
@@ -95,6 +79,17 @@ body {
     color: inherit;
 }
 
-.header-text {
-    margin-right: 80px;
+/* INFO PERSO */
+.info_perso {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.info_perso img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    filter: invert(1);
 }
