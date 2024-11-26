@@ -48,6 +48,7 @@ body {
 .header-photo {
     cursor: zoom-in;
     position: relative;
+    margin-left: 50px;
 }
 
 /* TEXTE DU HEADER */
@@ -92,4 +93,70 @@ body {
     height: 15px;
     margin-right: 5px;
     filter: invert(1);
+}
+
+
+/* Variables CSS */
+:root {
+    --primary-color: #17abb3;
+    --secondary-bg: #f5f5f5;
+    --opacity-level: 30%;
+}
+
+/* Conteneur principal */
+.container {
+    display: flex;
+    max-width: 1160px;
+    font-family: "Contenus", sans-serif;
+}
+
+/* Style pour les séparateurs */
+hr {
+    opacity: var(--opacity-level);
+    color: var(--primary-color);
+}
+
+/* Colonne de gauche */
+.sidebar {
+    width: 30%;
+    background-color: var(--secondary-bg);
+    padding: 25px 50px;
+}
+
+.sidebar h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    font-weight: bold;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+    list-style: square;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li::marker {
+    color: var(--primary-color);
+}
+
+.star {
+    color: var(--primary-color);
+}
+
+.competences,
+.langues,
+.qualites,
+.loisirs {
+    padding-bottom: 10px;
+}
+
+.competences {
+    display: flex;
+    justify-content: space-between;
 }
