@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @font-face {
-    font-family: 'Contenus';
-    src: url('./font/Raleway-Thin.woff2') format('woff2'),
-         url('./font/Raleway-Thin.woff') format('woff');
+    font-family: "Contenus";
+    src: url("./font/Raleway-Thin.woff2") format("woff2"),
+        url("./font/Raleway-Thin.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -94,7 +94,6 @@ body {
     margin-right: 5px;
     filter: invert(1);
 }
-
 
 /* VARIABLE CSS */
 :root {
@@ -203,7 +202,7 @@ span {
     display: flex;
     flex-direction: column;
     gap: 15px;
-}   
+}
 
 .diplomes p {
     font-weight: bold;
@@ -216,4 +215,24 @@ span {
     gap: 30px;
     display: flex;
     flex-direction: column;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #17abb3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+    margin: 20px 20px 0 0;
+    transition: opacity 0.3s ease;
+}
+
+.social img:hover {
+    opacity: 0.5;
 }
