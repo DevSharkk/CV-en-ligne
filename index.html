@@ -1,192 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet"
-    />
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Mon CV en ligne réaliser uniquement en HTML et CSS ainsi que l'utilisation de GIT et GITHUB">
+        <link rel="stylesheet" href="./assets/style.css">
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <title>Mon CV en ligne</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-content">
+                <!-- Photo à gauche -->
+                <a href="./images/profil pro.jpg" target="_blank">
+                    <img src="./images/profil pro.jpg" alt="Photo de profil" class="header-photo">
+                </a>
 
-    <title>Mon CV en ligne</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-content">
-        <!-- Photo à gauche -->
-        <a href="./images/profil pro.jpg" target="_blank"
-          ><img
-            src="./images/profil pro.jpg"
-            alt="Photo de profil"
-            class="header-photo"
-        /></a>
-
-        <!-- Texte à droite -->
-        <div class="header-text">
-          <h1>Maxime LEVACHER</h1>
-          <h2>Développeur Web et Web Mobile</h2>
-          <div class="info_perso">
-            <p>
-              <img src="./images/logo header/enveloppe.png" alt="envelope" /><a
-                href="mailto:levacher.maxime72@gmail.com"
-                >levacher.maxime72@gmail.com</a
-              >
-            </p>
-            <p>
-              <img src="./images/logo header/maison.png" alt="maison" /><a
-                href="https://www.google.fr/maps/place/Tour+Eiffel/data=!4m7!3m6!1s0x47e66e2964e34e2d:0x8ddca9ee380ef7e0!8m2!3d48.8583701!4d2.2944813!16zL20vMDJqODE!19sChIJLU7jZClu5kcR4PcOOO6p3I0?authuser=0&hl=fr&rclk=1"
-                target="_blank"
-                >Av. Gustave Eiffel, 75007 Paris</a
-              >
-            </p>
-            <p>
-              <img src="./images/logo header/telephone.png" alt="telephone" /><a
-                href="tel:0678945612"
-                >0678945612</a
-              >
-            </p>
-            <p>
-              <img src="./images/logo header/voiture.png" alt="voiture" />Permis
-              B
-            </p>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Contenu principal -->
-    <div class="container">
-      <!-- Colonne de gauche (30%) -->
-      <aside class="sidebar">
-        <h3>Compétences</h3>
-        <hr />
-        <div class="competences">
-          <div class="sidebar_comp">
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Javascript</p>
-            <p>Figma</p>
-          </div>
-          <div class="sidebar_stars">
-            <p class="star">★★★★☆</p>
-            <p class="star">★★★★☆</p>
-            <p class="star">★★☆☆☆</p>
-            <p class="star">★★★☆☆</p>
-          </div>
-        </div>
-        <div class="langues">
-          <h3>Langues</h3>
-          <hr />
-          <p>Français-Langue maternelle</p>
-          <p>Anglais-Professionnel</p>
-        </div>
-        <div class="qualites">
-          <h3>Qualités</h3>
-          <hr />
-          <ul>
-            <li>Esprit d'équipe</li>
-            <li>Autonomie</li>
-            <li>Organisation</li>
-            <li>Créativité</li>
-            <li>Curiosité</li>
-          </ul>
-        </div>
-        <div class="loisir">
-          <h3>Loisirs</h3>
-          <hr />
-          <ul>
-            <li>Veille technologique</li>
-            <li>Jeux de réflexion</li>
-            <li>Jeux vidéo</li>
-            <li>Open source</li>
-          </ul>
-        </div>
-      </aside>
-
-      <!-- Colonne de droite (70%) -->
-      <main class="main-content">
-        <section class="profile">
-          <h3>Profil</h3>
-          <hr />
-          <p>
-            Passionné par la technologie et le développement web, je suis en
-            reconversion professionnelle après une carrière dans l'auomobile
-            (Mécanicien puis Technicien). Formé aux langages HTML, CSS,
-            JavaScript et aux frameworks modernes, je m'investis dans la
-            création de solutions innovantes et adaptées aux besoins des
-            utilisateurs.
-          </p>
-          <br />
-          <p>
-            Organisé, curieux et motivé, je suis prêt à mettre mes compétences
-            au service de projets ambitieux tout en développant continuellement
-            mes savoir-faire dans l'apprentissage continue.
-          </p>
-        </section>
-        <section class="formations">
-          <h3>Formations</h3>
-          <hr />
-          <div class="formations_info">
-          <div class="diplomes">
-            <div class="hover_text">
-            <p>Titre Professionnel Technicien électromécanicien automobile<span class="diplomes_text">AFPA, Chartres</span></p>
-            
-            <p>BEP Cuisine<span class="diplomes_text">Château des Vaux, Saint-Maurice</span></p>
-          </div>
-        </div>
-        <div class="diplomes_dates">
-            <p>Janvier 2017/2018</p>
-            <p>Septembre 2006 - Juillet 2009</p>
-        </div>
-    </div>
-    </section>
-    <!-- SECTION STAGES -->
-          <h3>Stages</h3>
-          <hr />
-          <section class="stages">
-            <div class="stages_info">
-            <div class="stages">
-              <div class="hover_text">
-              <p>Stages chez citroën<span class="stages_text"> à l'amélioration des processus de production : analyse des flux, identification des points d'optimisation <br> et mise en place de solutions concrètes. Collaboration avec les équipes techniques pour garantir la qualité et respecter les délais.</span></p>
-
-              <p>Stage chez Renault <span class="stages_text">Support aux équipes d’ingénierie dans le développement de nouveaux projets. <br> Contribution aux tests et analyses pour valider la conformité des produits, tout en respectant les normes de sécurité et les standards qualité.</span></p>
-              </div>
-          </div>
-          <div class="stages_dates">
-              <p>Avril 2017</p>
-              <p>Octobre 2017</p>
-          </div>
-      </div>
-      </section>
-          <div class="experiences">
-          <h3>Expérience professionnelle</h3>
-          <hr />
-          <div class="competences_info">
-            <div class="entreprises">
-              <div class="hover_text">
-              <p>Technicien mécanicien <span class="entreprises_text">GL Automobiles, Préval</span></p>
-              <p>Mécanicien automobile <span class="entreprises_text">Agent Renault Jêrome Pichard</span></p>
+                <!-- Texte à droite -->
+                <div class="header-text">
+                    <h1>Maxime LEVACHER</h1>
+                    <h2>Développeur Web et Web Mobile</h2>
+                    <div class="info_perso">
+                        <p>
+                            <img src="./images/logo header/enveloppe.png" alt="envelope">
+                            <a href="mailto:levacher.maxime72@gmail.com">levacher.maxime72@gmail.com</a>
+                        </p>
+                        <p>
+                            <img src="./images/logo header/maison.png" alt="maison">
+                            <a href="https://www.google.fr/maps/place/Tour+Eiffel" target="_blank">Av. Gustave Eiffel, 75007 Paris</a>
+                        </p>
+                        <p>
+                            <img src="./images/logo header/telephone.png" alt="telephone">
+                            <a href="tel:0678945612">0678945612</a>
+                        </p>
+                        <p>
+                            <img src="./images/logo header/voiture.png" alt="voiture">Permis B
+                        </p>
+                    </div>
+                </div>
             </div>
-            </div>
-            <div class="entreprises_dates">
-              <p>Octobre 2022 - Juin 2024</p>
-              <p>Mars 2019 - Juillet 2022</p>
-            </div>
-          </div>
-          </div>
-      </main>
-    </div>
+        </header>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="social">
-        <a target="_blank" href="https://www.linkedin.com/"><img src="./images/logo reseau/linkedin.png" alt="logo linkedin" /></a>
-        <a target="_blank" href="https://github.com/"><img src="./images/logo reseau/github.png" alt="logo github" /></a>
-        <a target="_blank" href="https://www.instagram.com/"><img src="./images/logo reseau/instagram.png" alt="logo instagram" /></a>
-      </div>
-      <p>Mise à jour : JJ/MM/AAAA</p>
-    </footer>
-  </body>
+        <!-- Contenu principal -->
+        <div class="container">
+            <!-- Colonne de gauche (30%) -->
+            <aside class="sidebar">
+                <h3>Compétences</h3>
+                <hr>
+                <div class="competences">
+                    <div class="sidebar_comp">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>Javascript</p>
+                        <p>Figma</p>
+                    </div>
+                    <div class="sidebar_stars">
+                        <p class="star">★★★★☆</p>
+                        <p class="star">★★★★☆</p>
+                        <p class="star">★★☆☆☆</p>
+                        <p class="star">★★★☆☆</p>
+                    </div>
+                </div>
+                <div class="langues">
+                    <h3>Langues</h3>
+                    <hr>
+                    <p>Français - Langue maternelle</p>
+                    <p>Anglais - Professionnel</p>
+                </div>
+                <div class="qualites">
+                    <h3>Qualités</h3>
+                    <hr>
+                    <ul>
+                        <li>Esprit d'équipe</li>
+                        <li>Autonomie</li>
+                        <li>Organisation</li>
+                        <li>Créativité</li>
+                        <li>Curiosité</li>
+                    </ul>
+                </div>
+                <div class="loisir">
+                    <h3>Loisirs</h3>
+                    <hr>
+                    <ul>
+                        <li>Veille technologique</li>
+                        <li>Jeux de réflexion</li>
+                        <li>Jeux vidéo</li>
+                        <li>Open source</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Colonne de droite (70%) -->
+            <main class="main-content">
+                <section class="profile">
+                    <h3>Profil</h3>
+                    <hr>
+                    <p>
+                        Passionné par la technologie et le développement web, je
+                        suis en reconversion professionnelle après une carrière
+                        dans l'automobile (Mécanicien puis Technicien). Formé
+                        aux langages HTML, CSS, JavaScript et aux frameworks
+                        modernes, je m'investis dans la création de solutions
+                        innovantes et adaptées aux besoins des utilisateurs.
+                    </p>
+                    <br>
+                    <p>
+                        Organisé, curieux et motivé, je suis prêt à mettre mes
+                        compétences au service de projets ambitieux tout en
+                        développant continuellement mes savoir-faire dans
+                        l'apprentissage continue.
+                    </p>
+                </section>
+
+                <section class="formations">
+                    <h3>Formations</h3>
+                    <hr>
+                    <div class="formations_info">
+                        <div class="diplomes">
+                            <div class="hover_text">
+                                <p>
+                                    Titre Professionnel Technicien
+                                    électromécanicien automobile
+                                    <span class="diplomes_text">AFPA, Chartres</span>
+                                </p>
+                                <p>
+                                    BEP Cuisine
+                                    <span class="diplomes_text">Château des Vaux, Saint-Maurice</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="diplomes_dates">
+                            <p>Janvier 2017/2018</p>
+                            <p>Septembre 2006 - Juillet 2009</p>
+                        </div>
+                    </div>
+                </section>
+
+                <h3>Stages</h3>
+                <hr>
+                <section class="stages">
+                    <div class="stages_info">
+                        <div class="stages">
+                            <div class="hover_text">
+                                <p>
+                                    Stage chez Citroën
+                                    <span class="stages_text">
+                                      Aide à l'amélioration des processus de production : analyse des flux, 
+                                      identification des points d'optimisation et mise en place de solutions concrètes. 
+                                      Collaboration avec les équipes
+                                        techniques pour garantir la qualité et respecter les délais.
+                                    </span>
+                                </p>
+                                <p>
+                                    Stage chez Renault
+                                    <span class="stages_text">
+                                        Support aux équipes d’ingénierie dans le
+                                        développement de nouveaux projets.
+                                        Contribution aux tests et analyses pour
+                                        valider la conformité des produits, tout
+                                        en respectant les normes de sécurité et
+                                        les standards qualité.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="stages_dates">
+                            <p>Avril 2017</p>
+                            <p>Octobre 2017</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="experiences">
+                    <h3>Expérience professionnelle</h3>
+                    <hr>
+                    <div class="competences_info">
+                        <div class="entreprises">
+                            <div class="hover_text">
+                                <p>
+                                    Technicien mécanicien
+                                    <span class="entreprises_text">
+                                      GL Automobiles, Préval
+                                      </span>
+                                </p>
+                                <p>
+                                    Mécanicien automobile
+                                    <span class="entreprises_text">
+                                      Agent Renault Jêrome Pichard
+                                      </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="entreprises_dates">
+                            <p>Octobre 2022 - Juin 2024</p>
+                            <p>Mars 2019 - Juillet 2022</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="social">
+                <a target="_blank" href="https://www.linkedin.com/">
+                    <img src="./images/logo reseau/linkedin.png" alt="logo linkedin">
+                  </a>
+                <a target="_blank" href="https://github.com/">
+                    <img src="./images/logo reseau/github.png" alt="logo github>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/">
+                    <img src="./images/logo reseau/instagram.png" alt="logo instagram">
+                </a>
+            </div>
+            <p>Mise à jour : JJ/MM/AAAA</p>
+        </footer>
+    </body>
 </html>
