@@ -11,7 +11,6 @@
 body {
     width: 1160px;
     margin: 0 auto;
-    font-weight: bold;
 }
 
 /* HEADER */
@@ -181,6 +180,8 @@ hr {
     padding: 0;
 }
 
+
+
 .main-content ul li {
     margin: 5px 0;
 }
@@ -209,21 +210,22 @@ span {
 }   
 
 .diplomes p, .entreprises p, .stages p {
-    font-weight: bold;
+        font-weight: bold;
 }
 
 .diplomes_dates, .entreprises_dates, .stages_dates {
     text-align: right;
     color: #17abb3;
-    font-weight: bold;
     gap: 30px;
     display: flex;
     flex-direction: column;
 }
 
-
+.stages_text, .diplomes_text, .entreprises_text {
+    font-weight: normal;
+}
 span {
-    padding-top: 10px ;
+    padding-top: 10px;
 }
 
 /* HOVER */
