@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @font-face {
-    font-family: 'Contenus';
-    src: url('./font/Raleway-Thin.woff2') format('woff2'),
-         url('./font/Raleway-Thin.woff') format('woff');
+    font-family: "Contenus";
+    src: url("./font/Raleway-Thin.woff2") format("woff2"),
+        url("./font/Raleway-Thin.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -26,14 +26,13 @@ body {
 
 .header-content {
     display: flex;
-    align-items: center; 
+    align-items: center;
     max-width: 1160px;
     width: 100%;
     justify-content: space-between;
 }
 
 /* HEADER IMG */
-
 .header-photo {
     width: 120px;
     height: 120px;
@@ -42,7 +41,7 @@ body {
     border: 3px solid white;
     position: relative;
     margin: 25px 0;
-    cursor: zoom-in ;
+    cursor: zoom-in;
 }
 
 .sidebar img {
@@ -106,7 +105,6 @@ body {
 }
 
 /* Colonne de gauche (30%) */
-
 hr {
     opacity: 30%;
     color: #17abb3;
@@ -144,22 +142,16 @@ hr {
     color: #17abb3;
 }
 
+.competences,
+.langues,
+.qualites,
+.loisirs {
+    padding-bottom: 10px;
+}
+
 .competences {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10px;
-}
-
-.langues {
-    padding-bottom: 10px;
-}
-
-.qualites {
-    padding-bottom: 10px;
-}
-
-.loisirs {
-    padding-bottom: 10px;
 }
 
 /* Colonne de droite (70%) */
@@ -180,8 +172,6 @@ hr {
     padding: 0;
 }
 
-
-
 .main-content ul li {
     margin: 5px 0;
 }
@@ -191,7 +181,9 @@ hr {
     text-align: justify;
 }
 
-.formations_info, .competences_info, .stages_info {
+.formations_info,
+.competences_info,
+.stages_info {
     display: flex;
     justify-content: space-between;
 }
@@ -201,31 +193,39 @@ span {
     display: block;
     font-style: italic;
     font-weight: 600;
+    padding-top: 10px;
 }
 
-.diplomes, .entreprises, .stages {
+.diplomes,
+.entreprises,
+.stages {
     display: flex;
     flex-direction: column;
     gap: 15px;
-}   
-
-.diplomes p, .entreprises p, .stages p {
-        font-weight: bold;
 }
 
-.diplomes_dates, .entreprises_dates, .stages_dates {
+.diplomes p,
+.entreprises p,
+.stages p {
+    font-weight: bold;
+}
+
+.diplomes_dates,
+.entreprises_dates,
+.stages_dates {
     text-align: right;
     color: #17abb3;
     gap: 30px;
     display: flex;
     flex-direction: column;
 }
-
-.stages_text, .diplomes_text, .entreprises_text {
+.stages_dates p {
     font-weight: normal;
 }
-span {
-    padding-top: 10px;
+.stages_text,
+.diplomes_text,
+.entreprises_text {
+    font-weight: normal;
 }
 
 /* HOVER */
@@ -234,10 +234,10 @@ span {
     padding-left: 10px;
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .hover_text p::before {
-    content: '';
+}
+
+.hover_text p::before {
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -245,16 +245,15 @@ span {
     height: 100%;
     background-color: transparent;
     transition: background-color 0.3s;
-  }
-  
-  /* Effet hover */
-  .hover_text p:hover {
+}
+
+.hover_text p:hover {
     background-color: #d5d2d2;
-  }
-  
-  .hover_text p:hover::before {
+}
+
+.hover_text p:hover::before {
     background-color: #17abb3;
-  }
+}
 
 /* Footer */
 .footer {
@@ -282,7 +281,8 @@ span {
         flex-direction: column;
     }
 
-    .sidebar, .main-content {
+    .sidebar,
+    .main-content {
         width: 100%;
     }
 }
