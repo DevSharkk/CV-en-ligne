@@ -260,7 +260,8 @@ span {
     background-color: #17abb3;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding-bottom: 20px;
+    margin-top: 20px;
 }
 
 .social img {
@@ -274,6 +275,8 @@ span {
 .social img:hover {
     opacity: 50%;
 }
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
