@@ -260,9 +260,8 @@ span {
     background-color: #17abb3;
     color: white;
     text-align: center;
-    padding-bottom: 20px;
     margin-top: 20px;
-    padding-top: 20PX;
+    padding-bottom: 5px;
 }
 
 .social img {
