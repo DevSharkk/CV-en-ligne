@@ -7,7 +7,7 @@
     font-weight: normal;
     font-style: normal;
 }
-/* MISE EN PAGE */
+/* LAYOUT */
 body {
     width: 1160px;
     margin: 0 auto;
@@ -97,14 +97,14 @@ body {
     margin-right: 80px;
 }
 
-/* Conteneur principal */
+/* MAIN CONTAINER */
 .container {
     display: flex;
     max-width: 1160px;
     font-family: "Contenus", sans-serif;
 }
 
-/* Colonne de gauche (30%) */
+/* LEFT SIDE */
 hr {
     opacity: 30%;
     color: #17abb3;
@@ -154,7 +154,7 @@ hr {
     justify-content: space-between;
 }
 
-/* Colonne de droite (70%) */
+/* RIGHT SIDE */
 .main-content {
     width: 70%;
     background-color: white;
@@ -255,13 +255,14 @@ span {
     background-color: #17abb3;
 }
 
-/* Footer */
+/* FOOTER */
 .footer {
     background-color: #17abb3;
     color: white;
     text-align: center;
     padding-bottom: 20px;
     margin-top: 20px;
+    padding-top: 20PX;
 }
 
 .social img {
@@ -278,7 +279,7 @@ span {
 
 
 
-/* Responsive Design */
+/* RESPONSIVE */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
